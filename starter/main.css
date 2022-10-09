@@ -1,0 +1,193 @@
+
+/* major fixes starts here */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    padding-bottom: 50px;
+}
+  /* major fixes ends */
+
+
+/* header starts*/
+header {
+    text-align: center;
+    padding: 45px;
+}
+header h2 {
+    padding-bottom: 30px;
+}
+.un-h2 {
+    font-weight: bold;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+
+
+}
+.deux-h2 {
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+header .un-button {
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid gray;
+  background-color: gray;
+    padding: 2px;
+    border-radius: 8px;
+    width: 30%;
+
+  
+
+}
+h5 {
+    display: flex;
+    align-items: center;
+}
+ .un-h5 { 
+     border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+     width: 50%;
+     display: flex;
+    text-align: center;
+   align-items: center;
+    justify-content: center;
+    
+   
+}
+.un-h5:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.deux-h5 {
+    cursor: pointer;
+    width: 50%;
+ justify-content: center;
+    display: flex;
+}
+/* header ends here */
+
+
+/* section starts */
+section {
+    width: 95%;
+    border: 4px solid black;
+    margin: 0 auto;
+    border-radius: 22px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.un-div {
+    margin: 0 auto;
+    height: 85%;
+
+     
+
+
+}
+.free, .plat, .gold {
+    border-right: 4px solid black;
+}
+.free, .diam {
+    width: 27%;
+}
+.plat, .gold {
+    width: 25%;
+}
+ .free, .plat, .gold, .diam {
+    margin: 0 auto;
+    padding-left: 5%;
+    font-weight: normal;
+
+
+
+}
+.dollar-sign {
+   display: flex;
+   align-items: center;
+   padding-bottom: 4px;
+   
+}
+.dollar-sign span {
+    font-size: 50px;
+}
+
+.free {
+    padding-left: 7%;
+}
+.free button {
+    margin-bottom: 50px;
+}
+
+section i {
+    font-size: 12px;
+    padding-right: 5px;
+
+    font-weight: bold;
+
+}
+.lorem {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.un-div h6 {
+    padding: 10px 0;
+
+}
+.un-h6 {
+    font-family: 'lato', sans-serif;
+    font-size: 13px;
+}
+.un-div button {
+    padding: 5px 20px;
+    color: white;
+     background-color: black;
+    cursor: pointer;
+    margin: 25px 0;
+
+}
+section .we  {
+    padding-top: 2px;
+}
+.un-div button:hover {
+    background-color: grey;
+    border: 3px solid grey;
+}
+.nonx {
+    padding-top: 48px;
+}
+
+/* section ends here */
+
+footer {
+    background: white;
+    color: black;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer:hover{
+    color: palevioletred;
+
+}

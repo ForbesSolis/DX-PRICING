@@ -1,0 +1,119 @@
+@media screen and (max-width: 700px) {
+    .home {
+        padding: 20px;
+        text-align: center;
+    }
+    .home h2 {
+        padding-bottom: 25px;
+    }
+    header .deux-h2 {
+        font-size: 15px;
+        width: 60%;
+        margin: 0 auto;
+        
+    }
+    .home .first-button {
+        width: 90%;
+
+    }
+    
+    .deux-h5 {
+        cursor: pointer;
+        width: 50%;
+     justify-content: center;
+        display: flex;
+        
+    }
+
+    .un-h5 { 
+        border: 2px solid white;
+       background-color: white;
+       border-radius: 10px;
+        width: 50%;
+        display: flex;
+       text-align: center;
+      align-items: center;
+       justify-content: center;}
+
+
+
+
+    footer{
+        display: none;
+
+    }
+
+    footer:hover{
+        display: none;
+     }
+
+     
+     }
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    html section {
+        flex-wrap: wrap;
+        padding: 40px 10px;
+
+
+    }
+    section .un-div {
+        width: 80%;
+
+        border-right: transparent;
+
+
+
+    }
+    section .plat, .gold, .diam {
+        padding-top: 20px;
+    }
+    
+    section h6 {
+      font-size: 15px;
+    }
+    section .first-h6 {
+        font-size: 16px;
+    }
+    section button {
+        font-size: 15px;
+    }
+
+    footer{
+        display: none;
+
+ }
+
+ footer:hover{
+    display: none;
+ }
+
+ .deux-h5 {
+    cursor: pointer;
+    width: 50%;
+ justify-content: center;
+    display: flex;
+    
+}
+
+.un-h5 { 
+    border: 2px solid white;
+   background-color: white;
+   border-radius: 10px;
+    padding: 7px 15px;
+    width: 50%;
+    display: flex;
+   text-align: center;
+  align-items: center;
+   justify-content: center;}
+
+
+   
+  
+
+
+}
