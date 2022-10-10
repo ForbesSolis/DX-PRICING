@@ -19,18 +19,17 @@
     
     .deux-h5 {
         cursor: pointer;
-        width: 50%;
      justify-content: center;
         display: flex;
-        
+
     }
 
     .un-h5 { 
         border: 2px solid white;
        background-color: white;
        border-radius: 10px;
-        width: 50%;
         display: flex;
+        padding-bottom: 30px;
        text-align: center;
       align-items: center;
        justify-content: center;}
@@ -109,9 +108,19 @@
     display: flex;
    text-align: center;
   align-items: center;
+  padding: 7px 20px;
    justify-content: center;}
 
+   header .un-button {
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid gray;
+  background-color: gray;
+    padding: 2px ;
+    border-radius: 8px;
+    width: 80%
 
+}
    
   
 
